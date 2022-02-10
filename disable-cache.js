@@ -1,1 +1,0 @@
-define('WPFC_HIDE_TOOLBAR', true);
