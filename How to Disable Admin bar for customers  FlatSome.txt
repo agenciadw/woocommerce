@@ -1,5 +1,0 @@
-Add this to your function.php file to disable admin bar for customers:
-
-if (!current_user_can('administrator')): 
-show_admin_bar(false); 
-endif;

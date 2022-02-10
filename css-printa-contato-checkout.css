@@ -1,0 +1,5 @@
+/* Developed by: barrosofilho.ti@gmail.com */
+
+.wfacp_preview_content_box.wfacp-section div .single_preview:first-child {
+	display: none; /* oculta nome e sobrenome que ficava acima dos textos de endereços */
+}
