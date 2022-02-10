@@ -1,3 +1,1 @@
-Insert in wp-config.php
-
 define('WPFC_HIDE_TOOLBAR', true);
