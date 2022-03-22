@@ -1,0 +1,16 @@
+/*only desktop*/
+@media (min-width: 756px) {
+	.star-rating {
+		position: absolute;
+	}
+
+	.star-rating span {
+		position: absolute;
+	}
+
+	.product-grid-item .star-rating {
+		margin-left: -40px;
+	}
+}
+
+
