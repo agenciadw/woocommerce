@@ -1,10 +1,6 @@
-add_filter(
-	"woocommerce_billing_fields",
-	function ($fields) {
-		$fields["billing_neighborhood"]["required"] = true;
-		$fields["billing_cellphone"]["required"] = true;
-		$fields["billing_cpf"]["required"] = true;
-		return $fields;
-	},
-	20
-);
+add_filter('woocommerce_admin_shipping_fields', 'woocommerce_require_admin_shipping_fields');
+function woocommerce_require_admin_shipping_fields( $fields ){
+	$fields['city']['custom_attributes'] = array( 'required' => 'required' );
+    // $fields['last_name']['custom_attributes'] = array( 'required' => 'required' ); // for last_name
+    return $fields;
+}
